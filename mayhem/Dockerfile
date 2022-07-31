@@ -6,7 +6,7 @@ ADD . /src
 WORKDIR /src
 
 RUN echo building instrumented harnesses && \
-    bash -c "pushd bin/fuzz && cargo +nightly -Z sparse-registry fuzz build && popd" && \
+    bash -c "pushd bin/fuzz && cargo +nightly -Z sparse-registry fuzz build --fuzz-dir . && popd" && \
     mv bin/fuzz/target/x86_64-unknown-linux-gnu/release/chain-spec /chain-spec && \
     mv bin/fuzz/target/x86_64-unknown-linux-gnu/release/fork-tree /fork-tree && \
     mv bin/fuzz/target/x86_64-unknown-linux-gnu/release/grandpa-justification-parse /grandpa-justification-parse && \
