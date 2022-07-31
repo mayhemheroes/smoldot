@@ -1,0 +1,7 @@
+project: smoldot
+target: wasm-module-wasmi
+
+cmds:
+  - cmd: /wasm-module-wasmi
+  - cmd: /wasm-module-wasmi_no_inst @@
+    libfuzzer: false

@@ -1,0 +1,7 @@
+project: smoldot
+target: multiaddr-text
+
+cmds:
+  - cmd: /multiaddr-text
+  - cmd: /multiaddr-text_no_inst @@
+    libfuzzer: false

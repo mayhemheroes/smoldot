@@ -1,0 +1,7 @@
+project: smoldot
+target: peer-id
+
+cmds:
+  - cmd: /peer-id
+  - cmd: /peer-id_no_inst @@
+    libfuzzer: false

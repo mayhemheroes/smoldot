@@ -1,0 +1,7 @@
+project: smoldot
+target: protocol-block-announce-decode
+
+cmds:
+  - cmd: /protocol-block-announce-decode
+  - cmd: /protocol-block-announce-decode_no_inst @@
+    libfuzzer: false

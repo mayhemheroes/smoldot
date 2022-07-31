@@ -1,0 +1,7 @@
+project: smoldot
+target: header-parse
+
+cmds:
+  - cmd: /header-parse
+  - cmd: /header-parse_no_inst @@
+    libfuzzer: false

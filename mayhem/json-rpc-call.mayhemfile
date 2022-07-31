@@ -1,0 +1,7 @@
+project: smoldot
+target: json-rpc-call
+
+cmds:
+  - cmd: /json-rpc-call
+  - cmd: /json-rpc-call_no_inst @@
+    libfuzzer: false

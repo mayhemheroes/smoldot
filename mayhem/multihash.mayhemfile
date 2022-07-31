@@ -1,0 +1,7 @@
+project: smoldot
+target: multihash
+
+cmds:
+  - cmd: /multihash
+  - cmd: /multihash_no_inst @@
+    libfuzzer: false

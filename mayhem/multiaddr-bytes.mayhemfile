@@ -1,0 +1,7 @@
+project: smoldot
+target: multiaddr-bytes
+
+cmds:
+  - cmd: /multiaddr-bytes
+  - cmd: /multiaddr-bytes_no_inst @@
+    libfuzzer: false

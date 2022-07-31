@@ -1,0 +1,7 @@
+project: smoldot
+target: fork-tree
+
+cmds:
+  - cmd: /fork-tree
+  - cmd: /fork-tree_no_inst @@
+    libfuzzer: false

@@ -1,0 +1,7 @@
+project: smoldot
+target: network-connection-raw
+
+cmds:
+  - cmd: /network-connection-raw
+  - cmd: /network-connection-raw_no_inst @@
+    libfuzzer: false

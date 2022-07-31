@@ -1,0 +1,7 @@
+project: smoldot
+target: chain-spec
+
+cmds:
+  - cmd: /chain-spec
+  - cmd: /chain-spec_no_inst @@
+    libfuzzer: false
