@@ -1,0 +1,7 @@
+project: smoldot
+target: grandpa-justification-parse
+
+cmds:
+  - cmd: /grandpa-justification-parse
+  - cmd: /grandpa-justification-parse_no_inst @@
+    libfuzzer: false

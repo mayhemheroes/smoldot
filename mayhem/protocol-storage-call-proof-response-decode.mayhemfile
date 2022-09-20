@@ -1,0 +1,7 @@
+project: smoldot
+target: protocol-storage-call-proof-response-decode
+
+cmds:
+  - cmd: /protocol-storage-call-proof-response-decode
+  - cmd: /protocol-storage-call-proof-response-decode_no_inst @@
+    libfuzzer: false

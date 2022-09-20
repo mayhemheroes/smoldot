@@ -1,0 +1,7 @@
+project: smoldot
+target: network-connection-encrypted
+
+cmds:
+  - cmd: /network-connection-encrypted
+  - cmd: /network-connection-encrypted_no_inst @@
+    libfuzzer: false

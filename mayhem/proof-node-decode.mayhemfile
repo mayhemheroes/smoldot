@@ -1,0 +1,7 @@
+project: smoldot
+target: proof-node-decode
+
+cmds:
+  - cmd: /proof-node-decode
+  - cmd: /proof-node-decode_no_inst @@
+    libfuzzer: false

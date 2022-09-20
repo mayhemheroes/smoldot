@@ -1,0 +1,7 @@
+project: smoldot
+target: protocol-block-announces-handshake-decode
+
+cmds:
+  - cmd: /protocol-block-announces-handshake-decode
+  - cmd: /protocol-block-announces-handshake-decode_no_inst @@
+    libfuzzer: false

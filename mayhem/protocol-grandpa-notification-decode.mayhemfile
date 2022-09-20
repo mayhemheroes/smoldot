@@ -1,0 +1,7 @@
+project: smoldot
+target: protocol-grandpa-notification-decode
+
+cmds:
+  - cmd: /protocol-grandpa-notification-decode
+  - cmd: /protocol-grandpa-notification-decode_no_inst @@
+    libfuzzer: false

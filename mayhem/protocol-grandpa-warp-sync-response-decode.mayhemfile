@@ -1,0 +1,7 @@
+project: smoldot
+target: protocol-grandpa-warp-sync-response-decode
+
+cmds:
+  - cmd: /protocol-grandpa-warp-sync-response-decode
+  - cmd: /protocol-grandpa-warp-sync-response-decode_no_inst @@
+    libfuzzer: false

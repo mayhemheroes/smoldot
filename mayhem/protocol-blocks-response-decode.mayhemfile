@@ -1,0 +1,7 @@
+project: smoldot
+target: protocol-blocks-response-decode
+
+cmds:
+  - cmd: /protocol-blocks-response-decode
+  - cmd: /protocol-blocks-response-decode_no_inst @@
+    libfuzzer: false
